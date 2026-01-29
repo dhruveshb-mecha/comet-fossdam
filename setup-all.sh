@@ -31,9 +31,23 @@ cd nextcloud
 bash setup.sh
 cd ..
 
+# Start Uptime Kuma
+echo "------------------------------------------------"
+cd uptime-kuma
+bash setup.sh
+cd ..
+
+# Start Home Assistant
+echo "------------------------------------------------"
+cd homeassistant
+bash setup.sh
+cd ..
+
 echo "------------------------------------------------"
 echo "All services started."
 echo "Access them at:"
-echo "  Immich:     http://localhost:2283"
-echo "  Jellyfin:   http://localhost:8096"
-echo "  Nextcloud:  http://localhost:8080"
+echo "  Immich:          http://localhost:2283"
+echo "  Jellyfin:        http://localhost:8096"
+echo "  Nextcloud:       http://localhost:8080"
+echo "  Uptime Kuma:     http://localhost:3001"
+echo "  Home Assistant:  http://localhost:8123"

@@ -12,6 +12,8 @@ This repository contains a demo setup for Immich, Jellyfin, and Nextcloud, orche
 - **immich**: Photo and video backup solution.
 - **jellyfin**: Media system.
 - **nextcloud**: Productivity platform.
+- **uptime-kuma**: Monitoring tool.
+- **homeassistant**: Home automation platform.
 
 ## Setup
 
@@ -33,6 +35,8 @@ This repository contains a demo setup for Immich, Jellyfin, and Nextcloud, orche
    - **Immich**: [http://localhost:2283](http://localhost:2283)
    - **Jellyfin**: [http://localhost:8096](http://localhost:8096)
    - **Nextcloud**: [http://localhost:8080](http://localhost:8080)
+   - **Uptime Kuma**: [http://localhost:3001](http://localhost:3001)
+   - **Home Assistant**: [http://localhost:8123](http://localhost:8123)
 
 ## Configuration
 

@@ -8,6 +8,12 @@ jellyfin/config/
 jellyfin/cache/
 jellyfin/media/
 
+# Uptime Kuma
+uptime-kuma/data/
+
+# Home Assistant
+homeassistant/config/
+
 # System Files
 .DS_Store
 *.log
