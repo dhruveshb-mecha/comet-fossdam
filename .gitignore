@@ -1,0 +1,13 @@
+# Immich Data
+immich/library/
+immich/postgres/
+immich/model-cache/
+
+# Jellyfin Data
+jellyfin/config/
+jellyfin/cache/
+jellyfin/media/
+
+# System Files
+.DS_Store
+*.log
