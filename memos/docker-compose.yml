@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  memos:
+    image: neosmemo/memos:stable
+    container_name: memos
+    restart: always
+    ports:
+      - "5230:5230"
+    volumes:
+      - ./data:/var/opt/memos:Z
+    networks:
+      - demo-net
+
+networks:
+  demo-net:
+    name: demo-net
+    external: true

@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  filebrowser:
+    image: filebrowser/filebrowser:latest
+    container_name: filebrowser
+    restart: always
+    ports:
+      - "8081:8080"
+    user: "0:0"
+    volumes:
+      - ./root:/srv:Z
+      - ./filebrowser.db:/database.db:Z
+    command: --port 8080 --address 0.0.0.0 --database /database.db
+    networks:
+      - demo-net
+
+networks:
+  demo-net:
+    name: demo-net
+    external: true

@@ -43,6 +43,18 @@ cd homeassistant
 bash setup.sh
 cd ..
 
+# Start FileBrowser
+echo "------------------------------------------------"
+cd filebrowser
+bash setup.sh
+cd ..
+
+# Start Memos
+echo "------------------------------------------------"
+cd memos
+bash setup.sh
+cd ..
+
 echo "------------------------------------------------"
 echo "All services started."
 echo "Access them at:"
@@ -51,3 +63,5 @@ echo "  Jellyfin:        http://localhost:8096"
 echo "  Nextcloud:       http://localhost:8080"
 echo "  Uptime Kuma:     http://localhost:3001"
 echo "  Home Assistant:  http://localhost:8123"
+echo "  FileBrowser:     http://localhost:8081"
+echo "  Memos:           http://localhost:5230"

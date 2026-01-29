@@ -14,6 +14,8 @@ This repository contains a demo setup for Immich, Jellyfin, and Nextcloud, orche
 - **nextcloud**: Productivity platform.
 - **uptime-kuma**: Monitoring tool.
 - **homeassistant**: Home automation platform.
+- **filebrowser**: Web-based file manager.
+- **memos**: Privacy-first, lightweight note-taking service.
 
 ## Setup
 
@@ -37,6 +39,8 @@ This repository contains a demo setup for Immich, Jellyfin, and Nextcloud, orche
    - **Nextcloud**: [http://localhost:8080](http://localhost:8080)
    - **Uptime Kuma**: [http://localhost:3001](http://localhost:3001)
    - **Home Assistant**: [http://localhost:8123](http://localhost:8123)
+   - **FileBrowser**: [http://localhost:8081](http://localhost:8081)
+   - **Memos**: [http://localhost:5230](http://localhost:5230)
 
 ## Configuration
 
