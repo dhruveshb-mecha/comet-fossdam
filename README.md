@@ -17,10 +17,19 @@ This repository contains a demo setup for Immich, Jellyfin, and Nextcloud, orche
 
 1. Run the setup script:
    ```bash
+   ```
    ./setup-all.sh
    ```
 
-2. Access the services:
+2. **Running Individual Services** (Optional):
+   If you only want to run a specific application (e.g., just Immich), navigate to its directory and run the setup script:
+   ```bash
+   cd immich
+   ./setup.sh
+   ```
+   (Replace `immich` with `jellyfin` or `nextcloud` as needed).
+
+3. Access the services:
    - **Immich**: [http://localhost:2283](http://localhost:2283)
    - **Jellyfin**: [http://localhost:8096](http://localhost:8096)
    - **Nextcloud**: [http://localhost:8080](http://localhost:8080)
